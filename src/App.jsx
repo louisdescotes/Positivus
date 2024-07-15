@@ -1,4 +1,4 @@
-import CaseStudie from "./CaseStudie"
+import CaseStudie from "./layout/CaseStudie"
 import CalltoContact from "./layout/CalltoContact"
 import ContactUs from "./layout/ContactUs"
 import Footer from "./layout/Footer"

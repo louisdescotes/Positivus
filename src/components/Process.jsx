@@ -22,7 +22,7 @@ export default function Process({ number, title, description }) {
         <div className="flex items-center justify-center border border-dark bg-[#F3F3F3] rounded-full size-14 p-2">
         {/** Minus */}
           <svg
-          className={open == true ? "hidden" : "block"}
+          className={open == true ? "block" : "hidden"}
             width="18"
             height="7"
             viewBox="0 0 18 7"
@@ -35,7 +35,7 @@ export default function Process({ number, title, description }) {
         {/** Plus */}
 
           <svg
-          className={open == true ? "block" : "hidden"}
+          className={open == true ? "hidden" : "block"}
             width="26"
             height="26"
             viewBox="0 0 26 26"

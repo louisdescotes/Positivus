@@ -4,7 +4,7 @@ import TitleSection from "./TitleSection";
 
 export default function Services() {
   return (
-    <section>
+    <section className="mt-140">
       <div>
         <TitleSection 
         title="Services"
@@ -13,9 +13,9 @@ export default function Services() {
         
         />
       </div>
-      <aside>
+      <aside className="grid grid-cols-12 grid-rows-1 gap-10 mb-10">
         <ServicesCard
-          bg="white"
+          bg="grey"
           img="card1.png"
           title="Search engine"
           title2="optimization"
@@ -29,14 +29,14 @@ export default function Services() {
         />
 
         <ServicesCard
-          bg="black"
+          bg="dark"
           img="card3.png"
           title="Social Media"
           title2="Marketing"
         />
 
         <ServicesCard
-          bg="white"
+          bg="grey"
           img="card4.png"
           title="Email"
           title2="Marketing"
@@ -50,7 +50,8 @@ export default function Services() {
         />
 
         <ServicesCard
-          bg="white"
+          bg="dark"
+          compo="true"
           img="card6.png"
           title="Analytics and "
           title2="Tracking"

@@ -9,7 +9,8 @@ export default {
       colors: {
         "light" : "#F3F3F3",
         "dark" : "#191A23",
-        "lime" : "#B9FF66"
+        "lime" : "#B9FF66",
+        "grey" : "#F3F3F3",
       },
       fontSize: {
         "h1" : "3.75rem", /* 60px */

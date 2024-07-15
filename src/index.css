@@ -34,3 +34,11 @@ input[type="radio"]::before {
 input[type="radio"]:checked::before {
   background: #B9FF66; 
 }
+
+.svg-active {
+  fill: #B9FF66; 
+}
+
+.svg-inactive {
+  fill: #FFFFFF;
+}

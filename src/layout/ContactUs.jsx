@@ -9,7 +9,7 @@ export default function ContactUs() {
       p= "Connect with Us: Let's Discuss Your Digital Marketing Needs"
       />
       <aside className="relative flex bg-[#F3F3F3] rounded-45 px-100 py-60 w-full h-full">
-        <div className="flex-1">
+        <div className="flex-1 mr-48">
             <form action="" id="form" className="flex flex-col gap-10">
                 <div className="flex text-p gap-9">
                     <div className="flex items-center gap-3">
@@ -21,7 +21,7 @@ export default function ContactUs() {
                       <label htmlFor="quote">Get a Quote</label>
                     </div>
                 </div>
-                <div>
+                <div className="flex flex-col gap-6">
                 <div className="flex flex-col gap-[5px]">
                     <label>Name</label>
                     <input className="px-30 py-18 border border-black rounded-14" type="text" placeholder="Name"/>
@@ -42,8 +42,8 @@ export default function ContactUs() {
               <button className="bg-dark rounded-14 flex justify-center items-center px-5 py-35 text-white w-full" type="submit">Send Message</button>
             </form>
         </div>
-        <div className="">
-            <img className="" src="/Illustration3.png" alt="" />
+        <div className="relative w-1/3 h-full">
+            <img className="absolute -right-24" src="/Illustration3.png" alt="" />
         </div>
       </aside>
     </section>

@@ -13,7 +13,7 @@ export default function CalltoContact() {
         />
       </div>
       <div>
-        <img src="/Illustration2.png" alt="" />
+        <img className="scale-[1.1]" src="/Illustration2.png" alt="" />
       </div>
     </section>
   )
