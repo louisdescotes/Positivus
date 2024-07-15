@@ -2,14 +2,30 @@ import React from "react";
 
 export default function TeamsCard({ img, nom, role, linkedin, xp }) {
   return (
-    <div>
-      <div>
-        <div>
-          <img src={`/${img}`} alt="" />
-          <div>
-            <h4>{nom}</h4>
-            <p>{role}</p>
+    <div className="col-span-4 border border-dark rounded-45 px-35 py-10 w-fit shadow-card">
+      <div className="flex">
+        <div className="flex w-full justify-between gap-5">
+          <div className="relative flex gap-5">
+            <img className="relative" src={`/${img}`} alt="" />
+            <svg
+              className="absolute -z-10 top-2 left-1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="99"
+              height="98"
+              viewBox="0 0 99 98"
+              fill="none"
+            >
+              <path
+                d="M84.631 48.9117C117.473 86.3213 87.1455 116.649 49.7359 83.8068C12.3263 116.649 -18.0016 86.3213 14.8408 48.9117C-18.0016 11.5021 12.3263 -18.8258 49.7359 14.0166C87.1455 -18.8258 117.473 11.5021 84.631 48.9117Z"
+                fill="#231F20"
+              />
+            </svg>
+            <div className="flex flex-col justify-end">
+              <h4 className="text-h4 font-medium">{nom}</h4>
+              <p className="text-p">{role}</p>
+            </div>
           </div>
+
           <a href={linkedin}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -35,9 +51,9 @@ export default function TeamsCard({ img, nom, role, linkedin, xp }) {
           </a>
         </div>
       </div>
-      <hr />
+      <hr className="border-dark my-28" />
       <div>
-        <p>{xp}</p>
+        <p className="font-p">{xp}</p>
       </div>
     </div>
   );

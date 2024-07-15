@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Menu() {
   return (
-    <nav>
+    <nav className=" bg-white py-2 flex w-full items-center justify-between">
       <div>
         <svg
           width="220"
@@ -60,13 +60,13 @@ export default function Menu() {
           </defs>
         </svg>
       </div>
-      <div>
+      <div className="flex gap-10 text-h4 items-center">
         <a href="">About us</a>
         <a href="">Services</a>
         <a href="">Use Cases</a>
         <a href="">Pricing</a>
         <a href="">Blog</a>
-        <a href="">Request a quote</a>
+        <a href="" className="px-35 py-5 border border-dark rounded-14">Request a quote</a>
       </div>
     </nav>
   );

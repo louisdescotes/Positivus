@@ -2,7 +2,7 @@ import React from "react";
 
 export default function LearnMore({ bg }) {
   return (
-    <a className="text-h4" href="">
+    <a className="text-h4 flex items-center gap-4" href="">
       <svg
         width="21"
         height="20"

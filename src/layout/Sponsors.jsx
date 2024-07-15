@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Sponsors() {
   return (
-    <section className="flex">
+    <section className="flex justify-between w-full grayscale">
         <div>
             <img src="/Companylogo.png" alt="" />
         </div>

@@ -8,6 +8,7 @@ import Services from "./layout/Services"
 import Sponsors from "./layout/Sponsors"
 import Teams from "./layout/Teams"
 import Testimonials from "./layout/Testimonials"
+import WorkingProcess from "./layout/WorkingProcess"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Services />
     <CalltoContact />
     <CaseStudie />
+    <WorkingProcess />
     <Teams />
     <Testimonials />
     <ContactUs />

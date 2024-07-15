@@ -5,13 +5,13 @@ import CTA from "../components/CTA";
 
 export default function Teams() {
   return (
-    <section>
+    <section className="mt-140">
       <TitleSection
         title="Team"
         p="Meet the skilled and experienced team behind our successful digital marketing strategies"
       />
 
-      <aside>
+      <aside className="grid grid-cols-12 grid-rows-1 gap-10 mb-10">
         <TeamsCard
           img="person1.png"
           nom="John Smith"
@@ -61,7 +61,7 @@ export default function Teams() {
           Skilled in creating compelling, SEO-optimized content for various industries"
         />
       </aside>
-      <div>
+      <div className="w-full flex justify-end">
         <CTA 
         cta = "See all team"
         url = "exemple.com"

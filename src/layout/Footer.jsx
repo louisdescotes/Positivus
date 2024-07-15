@@ -150,11 +150,9 @@ export default function Footer() {
               type="text"
               placeholder="Email"
             />
-            <input
-              className="flex-1 py-22 px-35 rounded-14 border border-transparent text-black bg-lime"
-              type="submit"
-              value={"Subscribe to news"}
-            />
+            <button type="submit" className="flex-1 py-22 px-35 rounded-14 border border-transparent text-black bg-lime">
+            Subscribe to news
+            </button>
           </div>
         </div>
       </div>
