@@ -9,7 +9,7 @@ export default function CaseStudie() {
         title="Case Studies"
         p="Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
       />
-      <aside className="bg-dark px-60 py-70 flex items-center rounded-45">
+      <aside className="overflow-hidden bg-dark px-60 py-70 flex items-center rounded-45">
        <Case 
        message= "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales."
        />

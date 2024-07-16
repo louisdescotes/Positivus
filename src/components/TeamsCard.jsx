@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function TeamsCard({ img, nom, role, linkedin, xp }) {
+export default function TeamsCard({className, img, nom, role, linkedin, xp }) {
   return (
-    <div className="col-span-4 border border-dark rounded-45 px-35 py-10 w-fit shadow-card">
+    <div className={`${className} col-span-4 border border-dark rounded-45 px-35 py-10 w-fit shadow-card `}>
       <div className="flex">
         <div className="flex w-full justify-between gap-5">
           <div className="relative flex gap-5">
@@ -21,8 +21,8 @@ export default function TeamsCard({ img, nom, role, linkedin, xp }) {
               />
             </svg>
             <div className="flex flex-col justify-end">
-              <h4 className="text-h4 font-medium">{nom}</h4>
-              <p className="text-p">{role}</p>
+              <h4 className="text-h4mob lg:text-h4 font-medium">{nom}</h4>
+              <p className="text-pmob lg:text-p">{role}</p>
             </div>
           </div>
 

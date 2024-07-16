@@ -12,14 +12,14 @@ export default function Process({ number, title, description }) {
       onClick={handleOpen}
       className={`
     ${open == true ? "bg-lime" : "bg-white"}
-    w-full py-10 px-60 border border-dark shadow-md rounded-45`}
+    w-full py-30 lg:px-60 lg:py-10 px-30 border border-dark shadow-md rounded-45`}
     >
       <div className="flex items-center">
         <div className="flex w-full items-center gap-6">
-          <span className="font-medium text-h1">{number}</span>
-          <p className="font-medium text-h3">{title}</p>
+          <span className="font-medium text-h2mob lg:text-h1">{number}</span>
+          <p className="font-medium text-h4mob lg:text-h3">{title}</p>
         </div>
-        <div className="flex items-center justify-center border border-dark bg-[#F3F3F3] rounded-full size-14 p-2">
+        <div className="flex items-center justify-center border border-dark bg-[#F3F3F3] rounded-full size-10 lg:size-14 p-2">
         {/** Minus */}
           <svg
           className={open == true ? "block" : "hidden"}
@@ -52,7 +52,7 @@ export default function Process({ number, title, description }) {
 
       <div className={`${open == true ? "block" : "hidden"}`}>
         <hr className="bg-black my-30 h-[1px] border-none" />
-        <p className="text-p">{description}</p>
+        <p className="text-pmob lg:text-p">{description}</p>
       </div>
     </article>
   );

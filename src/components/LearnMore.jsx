@@ -2,7 +2,7 @@ import React from "react";
 
 export default function LearnMore({ bg }) {
   return (
-    <a className="text-h4 flex items-center gap-4" href="">
+    <a className="text-h4mob lg:text-h4 flex items-center gap-4" href="">
       <svg
         className={`size-10 p-2 rounded-full
       ${
@@ -33,7 +33,7 @@ export default function LearnMore({ bg }) {
       </svg>
       <span className={`${bg === "dark" ? "text-white" :
     bg !== "grey" && bg !== "dark" && bg !== "lime" ? "text-lime" : ""
-    }
+    } hidden lg:block w
       
       `}>Learn more</span>
     </a>

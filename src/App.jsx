@@ -12,7 +12,7 @@ import WorkingProcess from "./layout/WorkingProcess"
 
 function App() {
   return (
-    <div className="space-grotesk">
+    <div className="space-grotesk mx-5 lg:mx-100">
     <Header />
     <Landing />
     <Sponsors />

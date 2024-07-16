@@ -2,10 +2,9 @@ import React from "react";
 
 export default function Menu() {
   return (
-    <nav className=" bg-white py-2 flex w-full items-center justify-between">
-      <div>
-        <svg
-          width="220"
+    <nav className=" bg-white py-2 flex w-full  items-center justify-between">
+      <div className="w-full lg:w-fit">
+        <svg className="w-[110px] lg:w-[220px]"
           height="36"
           viewBox="0 0 220 36"
           fill="none"
@@ -60,13 +59,43 @@ export default function Menu() {
           </defs>
         </svg>
       </div>
-      <div className="flex gap-10 text-h4 items-center">
+      <div className="lg:flex gap-10 text-h4mob lg:text-h4 items-center hidden">
         <a href="">About us</a>
         <a href="">Services</a>
         <a href="">Use Cases</a>
         <a href="">Pricing</a>
         <a href="">Blog</a>
-        <a href="" className="px-35 py-5 border border-dark rounded-14">Request a quote</a>
+        <a href="" className="px-35 py-5 border border-dark rounded-14">
+          Request a quote
+        </a>
+      </div>
+      <div className="flex gap-10 text-h4mob lg:text-h4 items-center lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="26"
+          height="19"
+          viewBox="0 0 26 19"
+          fill="none"
+        >
+          <path
+            d="M1 1.80664H25"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M1 9.80664H25"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M1 17.8066H25"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
       </div>
     </nav>
   );

@@ -13,7 +13,7 @@ export default function Services() {
         
         />
       </div>
-      <aside className="grid grid-cols-12 grid-rows-1 gap-10 mb-10">
+      <aside className="flex flex-col lg:grid grid-cols-12 grid-rows-1 gap-10 mb-10">
         <ServicesCard
           bg="grey"
           img="card1.png"

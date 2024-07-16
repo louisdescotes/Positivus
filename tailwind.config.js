@@ -18,6 +18,12 @@ export default {
         "h3" : "1.875rem", /* 30px */
         "h4" : "1.25rem", /* 20px */
         "p" : "1.125rem", /* 18px */
+
+        "h1mob" : "2.688rem", /* 43px */
+        "h2mob" : "2.25rem", /* 36px */
+        "h3mob" : "1.625rem", /* 26px */
+        "h4mob" : "1.125rem", /* 18px */
+        "pmob" : "1rem", /* 16px */
       },
       spacing: {
         '7': '0.438rem', /* 7px */

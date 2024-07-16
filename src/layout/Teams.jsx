@@ -11,7 +11,7 @@ export default function Teams() {
         p="Meet the skilled and experienced team behind our successful digital marketing strategies"
       />
 
-      <aside className="grid grid-cols-12 grid-rows-1 gap-10 mb-10">
+      <aside className="flex flex-col lg:grid grid-cols-12 grid-rows-1 gap-10 mb-10">
         <TeamsCard
           img="person1.png"
           nom="John Smith"
@@ -45,7 +45,8 @@ export default function Teams() {
         />
 
         <TeamsCard
-          img="person5.png"
+  className="hidden lg:block"
+  img="person5.png"
           nom="Brian Williams"
           role="Social Media Specialist"
           linkedin="exemple.com"
@@ -53,7 +54,8 @@ export default function Teams() {
         />
 
         <TeamsCard
-          img="person6.png"
+  className="hidden lg:block"
+  img="person6.png"
           nom="Sarah Kim"
           role="Content Creator "
           linkedin="exemple.com"
